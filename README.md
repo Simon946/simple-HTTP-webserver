@@ -16,6 +16,6 @@ I am in no way responsible for damages caused by the software in this repository
   <li>Create a folder called <code>webserver</code> in the same folder as the executable</li>
   <li>Place all the <code>.html</code> files inside the <code>webserver</code> folder. This folder is publically accessible.
   <li>Start the server with: <code>sudo ./webserver</code> from the commandline. (or use <code>sudo ./webserver >> log.txt</code> to create a log file.)
-<li>Stop the server with <kbd>crtl+C</kbd>
+    <li>Stop the server with <kbd>crtl</kbd>+<kbd>C</kbd>
 </ol>
 
