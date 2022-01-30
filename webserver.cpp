@@ -37,7 +37,7 @@ std::string findContentType(std::string filepath){
     else if(filepath.substr(filepath.find(".") + 1, filepath.length() - 1) == "txt"  ){
         return "text/plain; charset=UTF-8";
     }
-    return "application/octet-stream; charset=UTF-8";
+    return "application/octet-stream;";
 }
 
 std::string readFile(std::string filename){
